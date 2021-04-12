@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('test respon no restart');
+  res.send('ini api barang');
 });
 
 module.exports = router;
