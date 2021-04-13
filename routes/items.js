@@ -106,7 +106,7 @@ router.delete('/:id', async function (req, res, next) {
       res.json({
         'status': 'OK',
         'messages': 'Barang berhasil dihapus',
-        'row': items[0],
+        'row': items,
       })
     }
   } catch (err) {
